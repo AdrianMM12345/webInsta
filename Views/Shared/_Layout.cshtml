@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Content/@ViewBag.Style" type="text/css" />
+    @Styles.Render("~/Content/css")
+</head>
+<body>
+    @RenderBody()
+
+    <footer class="links">
+        <div class="footer-container">
+            <a href="https://about.meta.com">Meta</a>
+            <a href="https://about.instagram.com">Información</a>
+            <a href="https://about.instagram.com/blog/">Blog</a>
+            <a href="https://about.instagram.com/about-us/careers">Empleo</a>
+            <a href="https://help.instagram.com">Ayuda</a>
+            <a href="https://help.instagram.com">API</a>
+            <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Privacidad</a>
+            <a href="https://help.instagram.com/581066165581870/">Condiciones</a>
+            <a href="https://www.instagram.com/explore/locations/">Ubicaciones</a>
+            <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a href="https://www.threads.net">Threads</a>
+            <a href="https://www.facebook.com/help/instagram/261704639352628">Subir contactos y personas no usuarias</a>
+            <a href="#">Meta Verified</a>
+            <select class="idioma">
+                <option value="es">Español (España)</option>
+                <option value="en">English (United States)</option>
+                <option value="fr">Français (France)</option>
+                <option value="de">Deutsch</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português (Brasil)</option>
+            </select>
+            <span>© 2025 Instagram from Meta</span>
+        </div>
+    </footer>
+    @Scripts.Render("~/bundles/bootstrap")
+</body>
+</html>
+    
